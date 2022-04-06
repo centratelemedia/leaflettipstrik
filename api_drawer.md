@@ -26,3 +26,19 @@ Save After Edit
  editor.save();
  editor.disable();  
 ```
+
+Simulation, load polygon from database, and edit
+
+```
+ function addPolygon(){
+        // from database
+        var latlngs = [
+            [17.385044, 78.486671],
+            [16.506174, 80.648015],
+            [17.686816, 83.218482]
+            ];
+            var polygon = L.polygon(latlngs, {color: 'red'});
+            polygon.addTo(drawnItems);
+            editor.enable();  
+    }
+```    
