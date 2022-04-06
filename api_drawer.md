@@ -1,4 +1,4 @@
-Add Polygon programmatically
+Initialization Drawer for Polygon
 
 ```
    var drawPolygon= new L.Draw.Polygon(map, {showArea:true});
